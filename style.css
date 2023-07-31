@@ -10,6 +10,10 @@ body{
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    /* border: 1px solid red; */
+    max-width: 1280px;
+    margin: auto;
+   
 }
 img.logo{
     padding: 9.5px 10px;
@@ -22,7 +26,8 @@ header{
     left: 0;
     width: 100%;
     border-bottom: 1px solid seashell ; 
-
+   
+    background-color: black;
 }
 nav
 {
