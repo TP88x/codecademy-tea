@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+img.logo{
+    padding: 9.5px 10px;
+    height: 69px;
+}
+header{
+    /* border: 1px solid red; */
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid seashell ; 
+
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+   
+
+   
+}
+header ul{
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    list-style-type: none;
+    gap: 1rem;
+    padding: 1rem;
+}
+main{
+    margin-top: 69px;
+    /* border: 1px solid red; */
+}
+
+aside{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    margin:  0px 40px;   
+    /* border: 1px solid seashell; */
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    z-index: -1;
+}
+aside .mission{
+    background-color: black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+   
+}
+h2,h4{
+    padding: 10px;
+}
+img.pic{
+    height: 200px;
+    width: 300px;
+}
+article{
+    margin: 0px 40px;
+    /* border:1px solid red; */
+    margin-top: 69px;
+    width: 1200px;
+    text-align: center;
+}
+
+.flex{
+    margin: 1rem;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2rem;
+}
+.location{
+    width: 1200px;
+    height: 500px;
+    margin: 69px 40px 0px 40px;
+    /* border: 1px solid red; */
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-position: center;
+    
+}
+.location-box{
+    margin-top: 5px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 40px;
+
+}
+.center{
+    position: relative;
+    top: 10%;
+    
+}
+.box1{
+    background-color: black;
+    width: 300px;
+    height: 285px;
+    opacity: 1;
+    line-height: 3.3rem;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    font-size: 21.5px;
+
+}
+.contact{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 1200px;
+    line-height: 3.3rem;
+    margin: 0px 40px 0px 40px;
+}
+footer{
+    margin: 20px;
+    text-align: left;
+}
